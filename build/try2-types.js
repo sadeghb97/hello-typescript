@@ -1,0 +1,18 @@
+"use strict";
+var numVar = 24;
+console.log(numVar);
+var myVar = "Beep";
+myVar = true;
+console.log(myVar);
+var myArray = [1, 2, 3];
+console.log(myArray);
+var secondArray = ['4', 7, 15];
+console.log(secondArray);
+var myTuple = ["ddd", 24];
+myTuple = ["Sadegh", 30];
+myTuple[0] = "Hamid";
+myTuple[1] = 50;
+console.log(myTuple);
+var myStr = "A string var that can be null";
+myStr = null;
+console.log(myStr);

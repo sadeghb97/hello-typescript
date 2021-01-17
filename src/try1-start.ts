@@ -12,7 +12,8 @@ tanzimate compile typescript darune tsconfig gharar darad.
 masalan ma optione marbut be hazfe comment ha az file compile shode ra fa'al kardim va hamchenin
 ma masire source proje ra ./src va mahale build ra ./build gharar dade im 
 dar natije code haye compile shode dar directorie ./build gharar khahand gereft
-ba dasture tsc (typescript compile) code haye tsc compile
+ba dasture tsc (typescript compile) tamame file haye ts darune src compile va dar directorie build 
+zakhire khahad shod 
 */
 
 console.log("Hello Typescript!")
