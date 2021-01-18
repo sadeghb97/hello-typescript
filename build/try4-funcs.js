@@ -22,3 +22,13 @@ var mulVar = multiply;
 var secMulVar = secondMultiply;
 console.log(mulVar(10));
 console.log(secMulVar(10));
+function niceCalc(a) {
+    var rest = [];
+    for (var _i = 1; _i < arguments.length; _i++) {
+        rest[_i - 1] = arguments[_i];
+    }
+    var restSum = 0;
+    rest.forEach(function (item) { return restSum += item; });
+    return restSum * a;
+}
+console.log(niceCalc(3, 4, 6, 10, 8, 2));

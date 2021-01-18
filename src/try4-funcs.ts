@@ -44,3 +44,13 @@ let mulVar : (x: number, y?:number) => number = multiply
 let secMulVar : (x: number, y?:number) => number = secondMultiply
 console.log(mulVar(10))
 console.log(secMulVar(10))
+
+
+/* rest operator */
+function niceCalc(a: number, ...rest : number[]) : number{
+  let restSum = 0
+  rest.forEach((item: number) => restSum += item)
+  return restSum * a
+}
+
+console.log(niceCalc(3, 4, 6, 10, 8, 2))
