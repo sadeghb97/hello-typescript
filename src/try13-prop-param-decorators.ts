@@ -48,3 +48,8 @@ console.log("-----------------")
 new NiceIceCream().getFlavour(1)
 new NiceIceCream().getFlavour(2)
 new NiceIceCream().getFlavour(3)
+
+
+
+//export IceCream
+export default IceCream
